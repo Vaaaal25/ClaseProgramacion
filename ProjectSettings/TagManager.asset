@@ -7,6 +7,7 @@ TagManager:
   - Distant
   - 2D UI
   - 3D UI
+  - Plataforma
   layers:
   - Default
   - TransparentFX
