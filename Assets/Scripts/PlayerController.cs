@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     public float horizontalMove;
     public float verticalMove;
@@ -17,8 +17,8 @@ public class Player : MonoBehaviour
     
     void Update()
     {
-        horizontalMove = Input.GetAxis("Vertical");
-        verticalMove = Input.GetAxis("Horizontal");
+        horizontalMove = Input.GetAxis("Horizontal");
+        verticalMove = Input.GetAxis("Vertical");
     }
 
     private void FixedUpdate()
